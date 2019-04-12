@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "lib/hippocamp/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
