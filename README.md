@@ -1,4 +1,7 @@
 # Eyewitness Chatbot
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/CodeForAfrica/eyewitness.svg)](https://greenkeeper.io/)
+
 Chatbot to allow people to receive news from providers and submit their own stories.
 
 ## Dependencies
