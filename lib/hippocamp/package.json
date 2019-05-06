@@ -20,7 +20,9 @@
     "test-restarted": "mocha --exit ./tests/functional/restartedBot.js",
     "test-scheduler": "mocha ./tests/functional/schedulerBot.js",
     "test-profile": "mocha ./tests/functional/profileBot.js",
-    "test-unit": "mocha ./tests/unit/*.js"
+    "test-unit": "mocha ./tests/unit/*.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Josh Cole <hello@recombix.com> (http://www.JoshuaCole.me)",
   "contributors": [
@@ -55,7 +57,8 @@
     "request-ninja": "^0.3.2",
     "safe-eval": "^0.3.0",
     "semver": "^5.5.0",
-    "shortid": "^2.2.12"
+    "shortid": "^2.2.12",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -77,5 +80,6 @@
     "node": ">=10",
     "npm": ">=6"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
